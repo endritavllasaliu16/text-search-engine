@@ -1,0 +1,28 @@
+.not-found-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.main-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10%;
+	background-color: #fff6e0;
+	color: white;
+	background-image: url("https://s3-alpha-sig.figma.com/img/cf66/8d62/f832a628fd45eeb3525f6f24e9313d40?Expires=1693180800&Signature=EKzVznqAHkX34QE3SZurLBxsCnhRveNgRyUkXuFAblweITYASvF0fEJ1KFOb~Lt3Gn1gIMVEEj0i3ZrldaOIFR8jiaMpztsht-rlCuXnD1yGaamVMIvlOmg4jesUThDaelQsq8yd6nZCkaQnstSrYDWt8SznczHFrC4cb~gQpcoPGf7l1MAcjloHmRz2PAFXaugUxs0ENVR63lqln7~0vrRu6r2fW1-5ugprOLE1ymuOnMkliq-GUBEdU0ozsLuKJ8Kl7b6TxBN7ixN72aLxXT33zoZON2rSEgb~t-pCoGMbyQebS8WadyyvwBtGqcw1bS-10AHaDeKp4oGZWCOp7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+	background-size: cover;
+}
+
+.main-content h1 {
+	font-size: 86px;
+	margin-bottom: 20px;
+}
+
+.main-content p {
+	font-size: 36px;
+}

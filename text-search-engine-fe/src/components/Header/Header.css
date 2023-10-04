@@ -1,0 +1,47 @@
+header {
+	padding: 20px;
+	color: white;
+	background-color: rgba(17, 24, 39, 1);
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo {
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	font-size: 24px;
+}
+
+.nav a,
+.nav button {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	transition: color 0.3s;
+}
+
+.nav a:hover,
+.nav button:hover {
+	color: rgb(247, 205, 255);
+}
+
+.nav button {
+	border: none;
+	background-color: rgba(17, 24, 39, 1);
+	font-size: 23px;
+	padding: 0;
+}
