@@ -1,0 +1,55 @@
+{
+	"name": "express-typescript-setup",
+	"version": "1.0.0",
+	"description": "Express typescript project setup by Egzona",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EgzonaVllasaliu/express-typescript-setup.git"
+	},
+	"keywords": [
+		"Express",
+		"typescript"
+	],
+	"author": "Egzona Vllasaliu",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/EgzonaVllasaliu/express-typescript-setup/issues"
+	},
+	"homepage": "https://github.com/EgzonaVllasaliu/express-typescript-setup#readme",
+	"devDependencies": {
+		"@types/bcryptjs": "^2.4.2",
+		"@types/express": "^4.17.13",
+		"@types/jsonwebtoken": "^9.0.2",
+		"@types/multer": "^1.4.7",
+		"@types/node": "^20.5.1",
+		"@types/node-fetch": "^2.6.1",
+		"@types/pdf-parse": "^1.1.1",
+		"@types/unzipper": "^0.10.5",
+		"nodemon": "^2.0.15",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.2"
+	},
+	"dependencies": {
+		"@types/mongoose": "^5.11.97",
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"form-data": "^4.0.0",
+		"fs": "^0.0.1-security",
+		"jsonwebtoken": "^9.0.1",
+		"mongodb": "^5.8.0",
+		"mongoose": "^7.4.4",
+		"multer": "^1.4.5-lts.1",
+		"natural": "^6.7.0",
+		"node-fetch": "^2.6.1",
+		"pdf-parse": "^1.1.1",
+		"pdf.js-extract": "^0.2.1",
+		"unzipper": "^0.10.11"
+	}
+}
